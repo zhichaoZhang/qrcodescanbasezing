@@ -4,7 +4,7 @@
 
 #### 使用：compile 'com.zzc.qrcodescan.zxing:qrcodescan:1.0.1'
 
---
+```
 启动扫码页面
 startActivityForResult(CaptureActivity.getCallingIntent(this), 1);
 
@@ -24,4 +24,4 @@ startActivityForResult(CaptureActivity.getCallingIntent(this), 1);
         }
       super.onActivityResult(requestCode, resultCode, data);
     }
---
+```
